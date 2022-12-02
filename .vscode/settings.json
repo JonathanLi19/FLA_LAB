@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "atomic": "cpp",
+        "ios": "cpp",
+        "list": "cpp",
+        "system_error": "cpp",
+        "vector": "cpp",
+        "xiosbase": "cpp",
+        "xstring": "cpp",
+        "xtree": "cpp"
+    }
+}

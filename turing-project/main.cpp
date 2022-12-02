@@ -1,8 +1,9 @@
 #include "common.h"
+#include "turing_machine.h"
 const char* HELP_OUTPUT = "usage: turing [-v|--verbose] [-h|--help] <tm> <input>";
 const char* UNKNOWN_OPTION = "unknown option:";
 const char* UNKNOWN_COMMAND = "unknown command:";
-const char *END = "================== END ==================";
+const char *END = "==================== END ====================";
 int main(int argc, char* argv[])
 {
     string tm_file = "";
