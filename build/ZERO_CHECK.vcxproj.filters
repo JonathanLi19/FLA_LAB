@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\李全昊大学\大三上\形式语言与自动机\project\FLA22proj工程框架\build\CMakeFiles\8c0b655539bd42ee6e4ebed5782d7507\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0AFB438C-717D-34D5-8684-8CE98783FC1F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

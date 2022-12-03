@@ -1,9 +1,8 @@
-#include "common.h"
 #include "turing_machine.h"
 const char* HELP_OUTPUT = "usage: turing [-v|--verbose] [-h|--help] <tm> <input>";
 const char* UNKNOWN_OPTION = "unknown option:";
 const char* UNKNOWN_COMMAND = "unknown command:";
-const char *END = "==================== END ====================";
+const char *end_line = "==================== END ====================";
 int main(int argc, char* argv[])
 {
     string tm_file = "";
@@ -24,7 +23,7 @@ int main(int argc, char* argv[])
                 if(arg == "-h"||arg == "--help")
                 {
                     cout << HELP_OUTPUT << endl;
-                    break;
+                    exit(0);
                 }
                 else if(arg == "-v"||arg == "--verbose")
                     verbose = true;
@@ -66,6 +65,6 @@ int main(int argc, char* argv[])
         cout << "Result: ";
     cout << res << endl;
     if(verbose)
-        cout << END << endl;
+        cout << end_line << endl;
     return 0;
 }

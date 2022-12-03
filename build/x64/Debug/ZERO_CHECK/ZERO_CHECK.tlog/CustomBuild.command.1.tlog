@@ -1,0 +1,10 @@
+^D:\李全昊大学\大三上\形式语言与自动机\PROJECT\FLA22PROJ工程框架\BUILD\CMAKEFILES\8C0B655539BD42EE6E4EBED5782D7507\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/李全昊大学/大三上/形式语言与自动机/project/FLA22proj工程框架 -BD:/李全昊大学/大三上/形式语言与自动机/project/FLA22proj工程框架/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/李全昊大学/大三上/形式语言与自动机/project/FLA22proj工程框架/build/tmp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,17 @@
+﻿  main.cpp
+D:\李全昊大学\大三上\形式语言与自动机\project\FLA22proj工程框架\turing-project\turing_machine.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  turing_machine.cpp
+D:\李全昊大学\大三上\形式语言与自动机\project\FLA22proj工程框架\turing-project\turing_machine.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\李全昊大学\大三上\形式语言与自动机\project\FLA22proj工程框架\turing-project\turing_machine.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\李全昊大学\大三上\形式语言与自动机\project\FLA22proj工程框架\turing-project\turing_machine.cpp(44,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+D:\李全昊大学\大三上\形式语言与自动机\project\FLA22proj工程框架\turing-project\turing_machine.cpp(418): warning C4715: “TuringMachine::run”: 不是所有的控件路径都返回值
+turing_machine.obj : error LNK2005: "char const * const HELP_OUTPUT" (?HELP_OUTPUT@@3PEBDEB) 已经在 main.obj 中定义
+turing_machine.obj : error LNK2005: "char const * const UNKNOWN_OPTION" (?UNKNOWN_OPTION@@3PEBDEB) 已经在 main.obj 中定义
+turing_machine.obj : error LNK2005: "char const * const UNKNOWN_COMMAND" (?UNKNOWN_COMMAND@@3PEBDEB) 已经在 main.obj 中定义
+turing_machine.obj : error LNK2005: "char const * const END" (?END@@3PEBDEB) 已经在 main.obj 中定义
+turing_machine.obj : error LNK2005: "char const * const ERR" (?ERR@@3PEBDEB) 已经在 main.obj 中定义
+turing_machine.obj : error LNK2005: "char const * const RUN" (?RUN@@3PEBDEB) 已经在 main.obj 中定义
+turing_machine.obj : error LNK2005: "char const * const SYNTAX_ERROR" (?SYNTAX_ERROR@@3PEBDEB) 已经在 main.obj 中定义
+turing_machine.obj : error LNK2005: "char const * const DIVIDING_LINE" (?DIVIDING_LINE@@3PEBDEB) 已经在 main.obj 中定义
+D:\李全昊大学\大三上\形式语言与自动机\project\FLA22proj工程框架\bin\Debug\turing.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

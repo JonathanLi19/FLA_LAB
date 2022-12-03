@@ -1,0 +1,3 @@
+D:/李全昊大学/大三上/形式语言与自动机/project/FLA22proj工程框架/build/CMakeFiles/turing.dir
+D:/李全昊大学/大三上/形式语言与自动机/project/FLA22proj工程框架/build/CMakeFiles/ALL_BUILD.dir
+D:/李全昊大学/大三上/形式语言与自动机/project/FLA22proj工程框架/build/CMakeFiles/ZERO_CHECK.dir
