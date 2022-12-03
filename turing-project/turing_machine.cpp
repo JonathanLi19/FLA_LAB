@@ -447,6 +447,7 @@ string TuringMachine::run(string input)
             //TODO: 如果a找不到，可能规则中有*
             if(transition.find(a) == transition.end()) //如果a不存在transition中
             {
+                cout << a.state << endl << a.symbols << endl;
                 //对每一个规则试试看现在的symbols可以符合他吗，找到可以符合的就把a.symbols更新
                 bool find = false;
                 for(auto iter = transition.begin(); iter != transition.end(); iter++)
@@ -458,9 +459,15 @@ string TuringMachine::run(string input)
                         for(int i=0;i<nTape;i++)
                         {
                             char c = heads[i]->symbol;
+                            
                             if(c != key.symbols[i])
                             {
-                                if(key.symbols[i] == '*')
+                                if(c == blank)
+                                {
+                                    fit = false;
+                                    break;
+                                }
+                                else if(key.symbols[i] == '*')
                                 {
                                     //do nothing
                                 }
