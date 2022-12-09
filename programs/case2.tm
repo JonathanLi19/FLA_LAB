@@ -8,7 +8,7 @@
 #S = {1}
 
 ; the complete set of tape symbols
-#G = {X,1,_}
+#G = {X,1,_,t,r,u,e,f,a,l,s}
 
 ; the start state
 #q0 = 0
