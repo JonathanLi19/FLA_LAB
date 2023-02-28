@@ -1,3 +1,6 @@
 others/
 bin/
 build/
+*.pdf
+*.docx
+*.zip
